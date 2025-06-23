@@ -1,7 +1,7 @@
 Hudl interview test
 
 Test instructions:
-1. Clone the repository at "location of the repository"
+1. Clone the repository at "https://github.com/akbarm3/Hudl-interview"
 2. Build using NPM:
    - Run `npm install` to install dependencies
 3. Run `npm run cy:test` to run the test using cypress run
