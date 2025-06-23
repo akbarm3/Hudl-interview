@@ -1,4 +1,5 @@
 import selectors from '../selectors/loginSelectors';
+//this file contains the page object for the login page
 
 class LoginPage {
 
