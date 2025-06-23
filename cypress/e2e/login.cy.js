@@ -1,5 +1,5 @@
 import loginPage from '../pageObjects/loginPage';
-
+//this file contains tests for the Hudl login functionality
 
 describe('Hudl Login Tests', () => {
     beforeEach(() => {
