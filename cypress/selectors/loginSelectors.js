@@ -1,3 +1,4 @@
+// This file contains the selectors used in the login page tests.
 const loginSelectors = {
     emailInput: '#username',
     passwordInput: '#password',
