@@ -1,20 +1,62 @@
-Hudl interview test
+# Hudl Interview Test
 
-This is a test framework using Cypress and Javascript. 
-It uses a modular approach with the page object model
+This project is a UI test automation framework built using **Cypress** and **JavaScript**, following a **modular structure** and the **Page Object Model (POM)** design pattern.
 
-Pre-requesites 
-Node v22
+---
+
+## 🚀 Features
+
+- Cypress test framework
+- Modular test structure
+- Page Object Model for maintainability
+- Mochawesome integrated reporting
+- Includes both negative and positive login test cases
+
+---
+
+## ✅ Pre-requisites
+
+- **Node.js v22** or higher  
+  You can check your Node version with:
+  ```bash
+  node -v
+
+## Clone the repository
+
+git clone https://github.com/akbarm3/Hudl-interview
+cd Hudl-interview
+
+## Install dependencies
+
+npm install
+
+## Run tests
+
+npm run cy:test
+
+This will execute Cypress tests in headless mode.
+
+Generates a Mochawesome HTML test report.
+
+## View the test report
+
+mochareports/mochawesome.html
+
+🔍 What This Test Covers
+URL under test is defined in cypress.config.js (or cypress.json depending on setup).
+
+Login Functionality:
+
+Negative test cases (e.g., invalid credentials)
+
+Positive test case with valid login credentials
 
 
+🛠️ Notes
 
-Test instructions:
-1. Clone the repository at "https://github.com/akbarm3/Hudl-interview"
-2. Build and run tests using NPM:
-   Run `npm install` to install dependencies
-   Run `npm run cy:test` to run the test using cypress run and also create a test report using mochawsome reporter
-   The link for the test report will be created once the tests have been executed.
+Ensure all environment variables and credentials (if any) are configured appropriately before running tests.
 
-4. The test will run against the URL specified in cypress.json and verify the following:
-5. Login tests for negative scenarios and a postive test for a valid login
+You can customize the test URL and configuration in cypress.config.js.
+
+
    
